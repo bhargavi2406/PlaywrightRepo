@@ -1,0 +1,54 @@
+function checkNumber(num) → Creates a function with one parameter (num).
+let result; → Declares a variable.
+if (num > 0) → Checks if number is positive.
+else if (num < 0) → Checks if number is negative.
+else → If neither, then it must be zero.
+return result; → Sends back the answer.
+console.log(...) → Prints the result.
+
+.........................
+var
+
+Function scoped
+Can be accessed outside the if block (inside same function)
+
+let
+
+Block scoped
+Can only be used inside { }
+...............................................
+for (let i = 1; i <= 25; i++)
+
+Starts from 1
+Runs until 25
+Increases by 1
+
+i % 2 !== 0
+
+% = modulus operator (gives remainder)
+Odd numbers leave remainder 1
+
+Examples:
+
+3 % 2 = 1 → Odd
+8 % 2 = 0 → Even
+............................
+1. let color = "brown"
+
+Created inside function.
+Available throughout the function.
+
+2. let color = "pink" inside if
+
+This is block-scoped.
+Exists only inside { }.
+
+So:
+
+Inside if block → pink
+Outside if block → brown
+
+3. var age = 30
+
+var is function-scoped.
+So even outside the if block, inside the function, age is accessible.
