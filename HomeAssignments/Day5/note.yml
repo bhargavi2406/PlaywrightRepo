@@ -1,0 +1,21 @@
+//label[text()='Username']- visible text
+//input[@id="username"]-attribute 
+
+//input[contains(@id,"passw")]-partial
+
+
+
+//tagname[@attribute='attributevale']----> attribute based xpath
+// tagname[text()=' text value in Dom']-----> text based xpath
+// tagname[contains(@attribute,'partial value of the attribute')]---> partial attribute based xpath
+// tagname[contains(text()=' partial textvalue in Dom')]-----------> partial text based xpath
+// tagname[@attribute='attributevale'][index]--->
+
+
+
+// id,name,class--
+
+
+in drop down 2 types 
+1 with select tagname-choose one of the values
+2 non select  tagname-normal click option and choose dropdown
